@@ -1,0 +1,24 @@
+975 patches, model: mobilenetv3_ptq_int8.tflite
+  100/975  last=68ms
+  200/975  last=68ms
+  300/975  last=68ms
+  400/975  last=68ms
+  500/975  last=67ms
+  600/975  last=68ms
+  700/975  last=68ms
+  800/975  last=85ms
+  900/975  last=68ms
+
+============================================================
+  mobilenet_quant  (mobilenetv3_ptq_int8.tflite)
+  t_pix=0.5  t_img=0.7
+============================================================
+  Latency: 69.7 +/- 4.8 ms  median=68.1
+  Total:   68.0 s
+  Pixel:  OA=0.9250  F1=0.9009  mIoU=0.8529
+          Prec=0.9146  Rec=0.8876  FPR=0.0517
+          TP=86095163 FP=8037986 TN=147566230 FN=10904596
+  Tile:   FPR=0.0376  DL_Eff=0.8529
+          TP=174 FP=29 TN=742 FN=30
+============================================================
+Done.
